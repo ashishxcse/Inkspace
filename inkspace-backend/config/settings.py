@@ -155,3 +155,9 @@ SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(hours=1),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=7),
 }
+
+ALLOWED_HOSTS = [
+    'inkspace-y2y3.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
