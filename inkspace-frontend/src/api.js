@@ -1,5 +1,5 @@
 // Django backend ka address. Server kahin aur chalao toh sirf yahan badlo.
-const BASE = "http://127.0.0.1:8000/api";
+const BASE = "https://inkspace-y2y3.onrender.com";
 
 export function isLoggedIn() {
   return Boolean(localStorage.getItem("access"));
