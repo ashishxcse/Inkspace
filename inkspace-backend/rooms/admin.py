@@ -1,5 +1,0 @@
-from django.contrib import admin
-from .models import Room, Participant
-
-admin.site.register(Room)
-admin.site.register(Participant)
